@@ -1,0 +1,121 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: left;
+    background-color: #033b55;
+    color: white;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-rw-1 {
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    padding: 2.5rem;
+    gap: 2.5rem;
+  }
+  
+  .footer-rw-col {
+    display: flex;
+    flex-direction: column;
+    flex: wrap;
+  }
+  
+  .col-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .col-links-container a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .col-links-container a:hover{
+    color: white;
+  }
+  
+  .col-tile h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: default;
+    margin-top: 0;
+  }
+  
+  .copy {
+    background-color: #f7ad19;
+    align-self: stretch;
+    margin-top: 2.5rem;
+  }
+  
+  .copy-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+  }
+  
+  .copy-text-container p{
+    cursor: default;
+    color: #05375c;
+  }
+  
+  .newsletter p{
+    font-weight: normal !important;
+    font-size: 1.3rem;
+    color: lightgray;
+  }
+  
+  .newsletter form{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+  
+  .newsletter input{
+    border-radius: 0.5rem 0 0 0.5rem;
+    border: none;
+    padding: 0.8rem;
+    width: 20rem;
+  }
+  
+  .newsletter input:focus{
+    outline: none;
+    font-size: 1.1rem;
+  }
+  
+  .newsletter input::placeholder{
+    font-size: 1rem;
+  }
+  
+  
+  .newsletter button{
+    border-radius: 0 0.5rem 0.5rem 0;
+    border: none;
+    padding: 0.8rem;
+    background-color: #f7ad19;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .rw-2 {
+    display: flex;
+    justify-content: space-between;
+    align-self:stretch ;
+    gap: 1.4rem;
+    padding: 2.5rem;
+    /* padding: 1rem 1rem 4.5rem 4.5rem; */
+    /* margin: 0 auto; */
+  }
+  
+  .rw-2 .footer-rw-col .col-tile h3{
+    margin-bottom: 0;
+  }
