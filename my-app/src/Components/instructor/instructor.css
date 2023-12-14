@@ -1,0 +1,94 @@
+.inst-container-large {
+    background-color: #12172b;
+    border-radius: 50px;
+    margin: 20px 40px;
+    margin-top: 20px;
+  }
+  
+  .inst-container {
+    margin: 20px 40px;
+    margin-top: 20px;
+  }
+  
+  .inst-heading {
+    font-size: 60px;
+    color: #fff;
+  }
+  
+  .inst-heading span {
+    font-style: italic;
+    font-size: 30px;
+  }
+  
+  .inst-profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+  }
+  
+  .inst-profile {
+    flex-basis: 260px;
+  }
+  
+  .inst-profiles .inst-profile img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .inst-name {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  
+  .inst-profile h5 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #ccc;
+  }
+  
+  .inst-profile p {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  @media only screen and (max-width: 1150px) {
+    .inst-profiles {
+      flex-direction: column;
+    }
+  
+    .inst-profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .inst-profile p {
+      text-align: center;
+      margin: 20px 60px 80px 60px;
+      font-size: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .inst-heading {
+      font-size: 40px;
+      color: #fff;
+      text-align: center;
+    }
+  
+    .inst-heading span {
+      font-size: 15px;
+    }
+  
+    .inst-profiles {
+      margin: 20px 0;
+    }
+  
+    .inst-profile p {
+      margin: 20px 10px 80px 10px;
+    }
+  }
