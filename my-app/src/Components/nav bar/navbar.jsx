@@ -6,9 +6,9 @@ function Navbar ()
     return(
         <div>
              
-             <div class="logo">
+             {/* <div class="logo">
                   <img src="https://images.app.goo.gl/du38xxatB3RBTP4GA" alt="logo"/>
-              </div>
+              </div> */}
               <ul className="nav-links">
                   <li><a href="">Login</a></li>
                   <li><a href="">Dashboard</a></li>
