@@ -35,6 +35,25 @@ npm start
 
 This will start the application on `localhost` at the default port.
 
+## Screenshots
+
+## Login Page
+
+![Login](Screenshots/login.PNG)
+
+## Dashboard Page
+
+![Dashboard](Screenshots/Dashboard.PNG)
+
+## Instructors Page
+
+![Instructors](Screenshots/instructors.PNG)
+
+## Navbar Page
+
+![Navbar](Screenshots/navbar.PNG)
+
+
 ## Usage
 
 Describe how to use the application, highlighting key functionalities such as logging in, viewing grades, reporting missing grades, and contacting instructors.
